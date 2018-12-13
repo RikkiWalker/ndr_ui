@@ -1,5 +1,6 @@
 ## [Unreleased]
-*no unreleased changes*
+### Added
+* Added `bootstrap_icon_spinner` helper methods
 
 ## 1.12.2 / 2018-06-22
 ### Fixed
