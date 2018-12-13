@@ -172,7 +172,7 @@ module NdrUi
                   'indicator-white.gif'
                 end
 
-      image_tag(spinner, style: 'width:12px;padding-bottom:2px;')
+      image_tag(spinner, style: 'width:12px;padding-bottom:2px;', alt: spinner)
     end
 
     # Creates a simple bootstrap tab navigation.

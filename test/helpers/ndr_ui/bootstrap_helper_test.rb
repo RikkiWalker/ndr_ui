@@ -112,7 +112,8 @@ module NdrUi
     end
 
     test 'bootstrap_icon_spinner' do
-      assert_dom_equal '<img style="width:12px;padding-bottom:2px;" src="/images/indicator-danger.gif">',
+      assert_dom_equal '<img style="width:12px;padding-bottom:2px;"' \
+                       'src="/images/indicator-danger.gif" alt="indicator-danger.gif">',
                        bootstrap_icon_spinner(:danger)
       assert bootstrap_icon_spinner(:danger).html_safe?, 'bootstrap_icon_spinner is not html_safe'
     end
